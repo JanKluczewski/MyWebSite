@@ -6,7 +6,7 @@
   "homepage": " https://jankluczewski.github.io/MyWebSite/",
   "scripts": {
     "sass": "node-sass -w  scss/ -o dist/css/ --recursive",
-    "deploy" : "gh-pages -b master-d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Jan Kluczewski",
   "license": "MIT",
