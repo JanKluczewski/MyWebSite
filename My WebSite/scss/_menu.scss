@@ -69,7 +69,7 @@
   &-nav {
     margin: 0;
     padding: 0;
-    background: darken($primarry-color, 5);
+    background: darken($primarry-color, 8);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     @include easeOut;
@@ -93,8 +93,8 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url("../image/portret.jpg");
-      border-radius: 50%;
+      background: url("../image/Avatar-small.jpg");
+      border-radius: 80%;
       border: solid 3px $secondary-color;
     }
   }

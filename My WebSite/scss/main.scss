@@ -188,7 +188,7 @@ color: #333;
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background:  darken($color: ($primarry-color), $amount: 10);
+  background:  darken($color: ($primarry-color), $amount: 20);
   color: set-text-color($primarry-color);
   height: 60px;
 }
